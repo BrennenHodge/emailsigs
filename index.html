@@ -1,0 +1,121 @@
+<html>
+<head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.8/clipboard.min.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap" rel="stylesheet">
+</head>
+<body>
+<style>
+    .box {
+        padding: 10px;
+    }
+    .box-child {
+        padding-top: 20px;
+    }
+    .btn1 {
+        position: relative;
+        left: 115px;
+        top: -87px;
+    }
+    .btn {
+        box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+        position: absolute;
+        padding: 6px 12px;
+        font-size: 13px;
+        font-weight: 700;
+        line-height: 20px;
+        color: #333;
+        white-space: nowrap;
+        vertical-align: middle;
+        cursor: pointer;
+        background-color: #eee;
+        background-image: linear-gradient(#fcfcfc,#eee);
+        border: 1px solid #d5d5d5;
+        border-radius: 6px;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        -webkit-appearance: none;
+        display: none;
+    }
+    .box-child:hover .btn {
+        display: inline-block;
+    }
+    .btn:hover, .btn:active {
+        background-color: #ddd;
+        background-image: linear-gradient(#eee,#ddd);
+        border-color: #ccc;
+        text-decoration: none;
+    }
+    .btn2 {
+        display: inline-block !important;
+        margin-left: 15px;
+        margin-top: 10px;
+    }
+</style>
+<script>
+
+  $( document ).ready(function() {
+    new ClipboardJS('.btn');
+    var counter = 1;
+    $.getJSON('admin/people.json', function(data) {
+      $.each(data.userList, function(i, f) {
+        // Format phone number
+        var match = f.phone.match(/^(\d{3})(\d{3})(\d{4})$/);
+        var number = match[1] + '.' + match[2] + '.' + match[3];
+
+        var html = '<div class="box-child"><table id="person' + counter + '" width="362" border="0" cellspacing="0" cellpadding="0" style="border: solid #ecf1f5 1px; border-radius: 8px; padding:12px;">\n' +
+          '  <tr>\n' +
+          '    <td>\n' +
+          '      <table width="360" border="0" cellpadding="0" cellspacing="0" style="font-family: Montserrat, Arial, Helvetica, sans-serif;">\n' +
+          '        <tbody>\n' +
+          '        <tr>\n' +
+          '          <td width="134" valign="top">\n' +
+          '            <img src="' + f.img + '" width="118" style="width: 100%; max-width: 118px;" alt="">\n' +
+          '          </td>\n' +
+          '          <td width="200">\n' +
+          '            <table width="100%" border="0" cellspacing="0" cellpadding="0">\n' +
+          '              <tr>\n' +
+          '                <td style="font-size:22px; color:#111827; font-weight:bold; padding-bottom: 10px;">' + f.name.toUpperCase() + '</td>\n' +
+          '              </tr>\n' +
+          '              <tr>\n' +
+          '                <td style="border-top: #ecf1f5 solid 1px;" width="100%"></td>\n' +
+          '              </tr>\n' +
+          '              <tr>\n' +
+          '                <td style="font-size:12px; color:#F92120; font-weight:bold; padding-top:10px;">' + f.title.toUpperCase() + '</td>\n' +
+          '              </tr>\n' +
+          '              <tr>\n' +
+          '                <td style="font-size:11px; color:#6b7c93; padding-top:6px; line-height:18px;">\n' +
+          '                  <a style="text-decoration:none; color:#6B7280;" href="mailto:' + f.email + '">' + f.email + '</a><br />\n' +
+          '                  <a style="text-decoration:none; color:#6B7280;" href="tel:' + f.phone + '">' + number + '</a><br />\n' +
+          '                  <a style="text-decoration:none; color:#6B7280;" href="https://www.voxo.co">www.voxo.co</a>\n' +
+          '                </td>\n' +
+          '              </tr>\n' +
+          '              <tr>\n' +
+          '              </tr>\n' +
+          '            </table>\n' +
+          '          </td>\n' +
+          '        </tr>\n' +
+          '\n' +
+          '        </tbody>\n' +
+          '      </table>\n' +
+          '    </td>\n' +
+          '  </tr>\n' +
+          '</table>' +
+          '<div class="btn1"><button class="btn" data-clipboard-target="#person' + counter + '">\n' +
+          '    Copy to clipboard\n' +
+          '</button></div></div>'
+        counter++;
+        $('.box').append(html);
+      });
+    });
+  });
+</script>
+<div class="box">
+  <h1 style="font-family: 'Poppins', sans-serif; color: #111827;">VOXO Email Signatures <a href="https://emailsigs.voxo.co/admin"><button class="btn2 btn">Edit Sigs</button></a></h1>
+</div>
+</body>
+</html>
