@@ -1,0 +1,21 @@
+backend:
+  name: github
+  repo: voxoco/email-sigs
+media_folder: "images/uploads" # Media files will be stored in the repo under images/uploads
+collections:
+  - name: "Main"
+    label: "Main"
+    files:
+      - label: "Signatures"
+        name: "signatures"
+        file: "admin/people.json"
+        fields:
+          - label: "People"
+            name: "userList"
+            widget: "list"
+            fields:
+              - { label: "Name", name: "name", widget: string, }
+              - { label: Image, name: img, widget: image }
+              - { label: "Title", name: "title", widget: string }
+              - { label: "Phone", name: "phone", widget: string }
+              - { label: "Email", name: "email", widget: string }

@@ -1,0 +1,298 @@
+{
+  "userList": [
+    {
+      "name": "CHANCELLOR MONTGOMERY",
+      "img": "/images/uploads/chance2.png",
+      "title": "CPO",
+      "phone": "6014416446",
+      "email": "chancellor@voxo.co"
+    },
+    {
+      "name": "DANIEL CHARPIE",
+      "img": "/images/uploads/daniel2.png",
+      "title": "CUSTOMER SUPPORT",
+      "phone": "2517867563",
+      "email": "daniel@voxo.co"
+    },
+    {
+      "name": "JOE MORDICA",
+      "img": "/images/uploads/joe2.png",
+      "title": "FOUNDER | CTO",
+      "phone": "6014088992",
+      "email": "joe@voxo.co"
+    },
+    {
+      "name": "ERVIN BAUMAN",
+      "img": "/images/uploads/ervin-signature.png",
+      "title": "VP OF CUSTOMER RELATIONS",
+      "phone": "6157476960",
+      "email": "ervin@voxo.co"
+    },
+    {
+      "name": "JAMES HARROD, PhD",
+      "img": "/images/uploads/james-signature-final.png",
+      "title": "LEAD SOFTWARE ENGINEER",
+      "phone": "6015515455",
+      "email": "james@voxo.co"
+    },
+    {
+      "name": "NIALL TUMELTY",
+      "img": "/images/uploads/niall2.png",
+      "title": "VP VOXO UK",
+      "phone": "2896228748",
+      "email": "niall@voxo.co"
+    },
+    {
+      "name": "JOSH REED",
+      "img": "/images/uploads/josh-straight.png",
+      "title": "CEO",
+      "phone": "8326504090",
+      "email": "josh@voxo.co"
+    },
+    {
+      "name": "MATT WARREN",
+      "img": "/images/uploads/matt2.png",
+      "title": "REGIONAL VP",
+      "phone": "6624140631",
+      "email": "matt@voxo.co"
+    },
+    {
+      "name": "NICK KELSOE",
+      "img": "/images/uploads/nick-dik.png",
+      "title": "VP OF SALES",
+      "phone": "2514229450",
+      "email": "nick@voxo.co"
+    },
+    {
+      "name": "NOAH POST",
+      "img": "/images/uploads/noah 2.png",
+      "title": "Support Supervisor ",
+      "phone": "6016025060",
+      "email": "noah@voxo.co"
+    },
+    {
+      "name": "PHIL WATSON",
+      "img": "/images/uploads/phil2.png",
+      "title": "VISIONARY",
+      "phone": "8653069176",
+      "email": "phil@voxo.co"
+    },
+    {
+      "name": "SETH BIGONY",
+      "img": "/images/uploads/seth-grey-update.png",
+      "title": "SENIOR ACCOUNT EXECUTIVE ",
+      "phone": "2142388142",
+      "email": "seth@voxo.co"
+    },
+    {
+      "name": "STEPHEN DINDINGER",
+      "img": "/images/uploads/stephen2.png",
+      "title": "VP PA",
+      "phone": "7178630044",
+      "email": "stephen@voxo.co"
+    },
+    {
+      "name": "ANTHONY FELIPE",
+      "img": "/images/uploads/anthony2.png",
+      "title": "TIER II SUPPORT TECH",
+      "phone": "6018187170",
+      "email": "anthony@voxo.co"
+    },
+    {
+      "name": "TIM WATSON",
+      "img": "/images/uploads/tim2.png",
+      "title": "ACCOUNT EXECUTIVE ",
+      "phone": "9318085645",
+      "email": "tim@voxo.co"
+    },
+    {
+      "name": "LEVI BURNHAM",
+      "img": "/images/uploads/levi-headshot-signature.png",
+      "title": "HARDWARE SUPPORT TECH",
+      "phone": "6016021122",
+      "email": "Levi@voxo.co"
+    },
+    {
+      "name": "MITCHELL HUNTER",
+      "img": "/images/uploads/mitchell.png",
+      "title": "TIER II SUPPORT TECH",
+      "phone": "6016021240",
+      "email": "mitchell@voxo.co"
+    },
+    {
+      "name": "BRANDON SMITH",
+      "title": "SENIOR SOFTWARE ENGINEER",
+      "phone": "6013253463",
+      "email": "bsmith@voxo.co",
+      "img": "/images/uploads/brandon-email-signature-pic.png"
+    },
+    {
+      "name": "NATALIE BAUMAN ",
+      "email": "natalie@voxo.co",
+      "phone": "6157476965",
+      "img": "/images/uploads/profile-pic-natalie.png",
+      "title": "SALES"
+    },
+    {
+      "name": "PAUL VITRANO",
+      "img": "/images/uploads/paul-signature.png",
+      "title": "ACCOUNT EXECUTIVE ",
+      "phone": "9189350228",
+      "email": "Paul@voxo.co"
+    },
+    {
+      "name": "AMY LOTT",
+      "img": "/images/uploads/amy-signature-circle.png",
+      "title": "CULTURE FACILITATOR",
+      "phone": "6016025066",
+      "email": "amy@voxo.co"
+    },
+    {
+      "name": "MIKE AYON",
+      "img": "/images/uploads/mike-ayon-headshot-email-signature.png",
+      "title": "PARTNER SALES MANAGER",
+      "email": "mike@voxo.co",
+      "phone": "6155217330"
+    },
+    {
+      "name": "ZACH MADEROS",
+      "title": "BUSINESS DEVELOPMENT REP",
+      "phone": "7148446545",
+      "email": "zach@voxo.co",
+      "img": "/images/uploads/zach-emai.png"
+    },
+    {
+      "name": "BLAKE SEYMOUR",
+      "title": "PLATFORM SUPPORT MANAGER",
+      "phone": "6016025060",
+      "email": "blake@voxo.co",
+      "img": "/images/uploads/blake-signature.png"
+    },
+    {
+      "name": "JARED QUINN",
+      "title": "FIELD TECH",
+      "phone": "6016021259",
+      "email": "jared@voxo.co",
+      "img": "/images/uploads/jared-circle.png"
+    },
+    {
+      "name": "DRAKE DRUCKENMILLER",
+      "img": "/images/uploads/drake-profile-pic-circle.png",
+      "title": "ACCOUNT EXECUTIVE",
+      "phone": "6016021090",
+      "email": "drake@voxo.co"
+    },
+    {
+      "name": "BRETT KEIRSTEAD",
+      "email": "brett@voxo.co",
+      "img": "/images/uploads/brettk.png",
+      "title": "VOXO",
+      "phone": "6125781180"
+    },
+    {
+      "name": "JP JONES",
+      "img": "/images/uploads/jp-pic.png",
+      "phone": "6016025060",
+      "title": "FIELD TECH",
+      "email": "jp@voxo.co"
+    },
+    {
+      "name": "LAUREN ESTRADA",
+      "title": "VOXO",
+      "phone": "6016745934",
+      "email": "lauren@voxo.co",
+      "img": "/images/uploads/profile-pic-lauren.png"
+    },
+    {
+      "name": "SPENCER MCFADDEN",
+      "title": "BUSINESS DEVELOPMENT REP",
+      "img": "/images/uploads/profile-pic-2-.png",
+      "email": "spencer@voxo.co",
+      "phone": "6016021921"
+    },
+    {
+      "name": "WESLEY GRAHAM",
+      "title": "TIER I SUPPORT TECH",
+      "phone": "6016021240",
+      "email": "wesley@voxo.co",
+      "img": "/images/uploads/profile-pic-wesley.png"
+    },
+    {
+      "name": "KAITLIN SELLERS",
+      "title": "BUSINESS DEVELOPMENT MANAGER",
+      "phone": "6017755360",
+      "email": "kaitlin@voxo.co",
+      "img": "/images/uploads/kaitlin-profile.png"
+    },
+    {
+      "name": "MICHAEL WHITE",
+      "title": "VP OF OPERATIONS",
+      "phone": "6016021008",
+      "email": "mwhite@voxo.co",
+      "img": "/images/uploads/michael-white.png"
+    },
+    {
+      "name": "JESSICA JORDAN ",
+      "title": "BUSINESS DEVELOPMENT REP",
+      "phone": "6016025060",
+      "email": "jessica@voxo.co",
+      "img": "/images/uploads/jessica-4.png"
+    },
+    {
+      "name": "GABBY LORMAND",
+      "title": "BUSINESS DEVELOPMENT REP",
+      "phone": "6016025060",
+      "email": "gabby@voxo.co",
+      "img": "/images/uploads/gabby.png"
+    },
+    {
+      "name": "ROLAND SCHLABACH",
+      "title": "BUSINESS DEVELOPMENT REP",
+      "phone": "6016025060",
+      "email": "roland@voxo.co",
+      "img": "/images/uploads/sdfa.png"
+    },
+    {
+      "name": "NEAL BONTRAGER",
+      "title": "BUSINESS DEVELOPMENT REP",
+      "phone": "7693041236",
+      "email": "neal@voxo.co",
+      "img": "/images/uploads/29.png"
+    },
+    {
+      "name": "PHILLIP POWE",
+      "title": "BUSINESS DEVELOPMENT REP",
+      "phone": "6016025060",
+      "email": "phillip@voxo.co",
+      "img": "/images/uploads/30.png"
+    },
+    {
+      "name": "STEVEN GAFFORD",
+      "title": "BUSINESS DEVELOPMENT REP",
+      "phone": "6016025060",
+      "email": "steven@voxo.co",
+      "img": "/images/uploads/sdfa.png"
+    },
+    {
+      "name": "BRENNEN HODGE",
+      "img": "/images/uploads/brenndawg.png",
+      "title": "VP OF PRODUCT",
+      "phone": "6015025060",
+      "email": "brennen@voxo.co"
+    },
+    {
+      "name": "RUSS SINGLETON",
+      "title": "VP OF SALES",
+      "phone": "6016066699",
+      "email": "russ@voxo.co",
+      "img": "/images/uploads/hello-team-please-take-a-moment-to-complete-this-form-at-your-earliest-convenience.-your-transparency-is-greatly-appreciated.-thanks-.png"
+    },
+    {
+      "name": "DANIEL HARLESS",
+      "img": "/images/uploads/daniel-harless-goh.png",
+      "title": "TIER II SUPPORT TECH",
+      "phone": "2513321002",
+      "email": "dharless@voxo.co"
+    }
+  ]
+}
